@@ -1,11 +1,6 @@
 .flexbox-container{
     display: flex;
-    background-color: beige;
-    justify-content: center;
-    align-items:center;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    height: 500px ;
+    background-color: bisque;
 }
 
 .flexbox{
@@ -17,10 +12,13 @@
 
 .flexbox1{
     min-height: 100px;
+    flex-shrink: 0;
+    align-self: flex-start;
 }
 .flexbox2{
     min-height: 200px
 }
 .flexbox3{
     min-height: 50px;
+    flex-grow: 1;
 }
