@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+.bar-container{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+}
+.bar-container img{
+    border: 5px solid;
+    height: 50px;  
+}
+
+.bar-container input{
+    border-radius: 30px;
+    height: 40px;
+}
+
+.menu-container{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-container{
+    background-color: beige;
+}
+
+.front-image img{
+    width: 100%; 
+    height: 500px;
+}
+.main-container h1{
+    display: flex;
+    justify-content: center;
+}
+
+.categories-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
