@@ -1,0 +1,84 @@
+/*1*/
+body{
+    margin: 0;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.logo-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-weight: bolder;
+}
+
+.logo-menu img{
+    width: 100px;
+}
+
+.input-case{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.button-case{
+    width: 75px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+/*2*/
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efece8;
+}
+
+.grid-container{
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+    
+}
+
+.object-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.object-card img{
+    width: 100%;
+    object-fit: cover;
+}
+/*3*/
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+    
+}
+
+.more-info{
+    display: flex;
+    flex-direction: column;    
+}
+
+
